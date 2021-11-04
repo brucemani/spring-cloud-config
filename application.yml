@@ -1,0 +1,18 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+    
+microservice:
+  HelloWorldService:
+    endpoints:
+      endpoint:
+        uri: http://HELLOWORLDSERVICE/free/sayHello
+  LambdaHelloWordService:
+    endpoints:
+      endpoint:
+        uri: http://LAMBDAHELLOWORLDSERVICE/secured/sayHello
