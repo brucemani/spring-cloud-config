@@ -23,4 +23,4 @@ microservice:
   AuthServer:
     endpoints:
       endpoint:
-        uri: http://RESOURCESERVER/oauth/token, oauth/check_token , /v1/utilities
+        uri: http://RESOURCESERVER/oauth/token, /oauth/check_token , /v1/utilities
