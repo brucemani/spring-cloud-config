@@ -16,10 +16,10 @@ microservice:
     endpoints:
       endpoint:
         uri: http://LAMBDAHELLOWORLDSERVICE/secured/sayHello
-  AuthServer:
-    endpoints:
-      endpoint:
-        uri: http://AUTHSERVER/oauth/token
+#   AuthServer:
+#     endpoints:
+#       endpoint:
+#         uri: http://AUTHSERVER/oauth/token
   AuthServer:
     endpoints:
       endpoint:
