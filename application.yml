@@ -16,3 +16,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://LAMBDAHELLOWORLDSERVICE/secured/sayHello
+  LambdaHelloWordService:
+    endpoints:
+      endpoint:
+        uri: http://AUTHSERVER/oauth/token
